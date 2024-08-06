@@ -20,7 +20,7 @@ prompt = ("the following is OCR extracted text from a single invoice PDF. "
           "Please do not give any additional information. Present the structured summary in the form of a table. The table should be aesthetically pleasing.")
 
 # Streamlit file uploader
-st.title("PDF Text Extraction and Gemini AI Summary")
+st.title("Digital Invoicer V1")
 uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 
 # Function to extract text using PyMuPDF
