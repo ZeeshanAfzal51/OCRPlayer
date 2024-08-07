@@ -17,7 +17,7 @@ prompt = ("the following is OCR extracted text from a single invoice PDF. "
           "Please use the OCR extracted text to give a structured summary. "
           "The structured summary should consider information such as PO Number, Invoice Number, Invoice Amount, Invoice Date, CGST Amount, SGST Amount, IGST Amount, Total Tax Amount, Taxable Amount, TCS Amount, IRN Number, Receiver GSTIN, Receiver Name, Vendor GSTIN, Vendor Name, Remarks and Vendor Code. "
           "If any of this information is not available or present then NA must be denoted next to the value. "
-          "Please do not give any additional information. Present the structured summary in the form of a table. The table should be aesthetically pleasing.")
+          "Please do not give any additional information.")
 
 # Streamlit file uploader
 st.title("Digital Invoicer V1")
